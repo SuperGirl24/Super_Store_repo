@@ -19,7 +19,7 @@ if fl is not None:
     st.write(filename)
     df=pd.read_excel(filename)
 else:
-    os.chdir(r"C:\\Users\\Nithin's PC\\Documents")
+    os.chdir(r"C:\Users\Nithin's PC\Documents\GitHub\Super_Store_repo\Files")
     df=pd.read_excel("SuperStore.xlsx")
 
 col1, col2 = st.columns((2))
